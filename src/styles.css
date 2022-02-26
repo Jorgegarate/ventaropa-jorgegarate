@@ -1,0 +1,43 @@
+*¨{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body , #root {
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+
+.menu nav a {
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:white;
+}
+.menu nav a:hover {
+    color:blue
+}
+.d-flex {
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+main {
+    margin: 10rem 0;
+}
+
+.caja {
+    border:1px solid blue;
+}
