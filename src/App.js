@@ -1,13 +1,17 @@
 import Header from "./components/Header"
-import NavBar from "./components/Navbar"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
+import ItemListContainer from "./components/ItemListContainer"
 function App() {
     return (
         <>
             <Header />
-            <NavBar />
-            <Main />
+            <ItemListContainer>
+            <div>pantalon</div>
+            <div>camisa</div>
+            <div>gorro</div>
+            </ItemListContainer>
+
             <Footer />
 
         </>

@@ -1,0 +1,51 @@
+#root, body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin:0;
+    h1 {
+        color:white;
+        text-transform: uppercase;
+    }
+    nav {
+        a {
+            text-decoration: none;
+            color:white;
+            margin-left: 2rem;
+            
+        }
+        button {
+            margin-left: 1rem;
+            background: white;
+            border: none;
+            border-radius: 5px;
+            padding: .5rem;
+            &:hover {
+                background-color: red;
+  
+            }
+
+            a {
+                margin:0.2rem;
+                color:black;
+            }
+        }
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    div {
+        border:1px solid black;
+        padding: 10px;
+        margin:20px;
+    }
+}

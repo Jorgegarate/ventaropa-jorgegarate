@@ -1,6 +1,6 @@
 const Main = () => {
     return (
-        <main class="d-flex justify-content-around">
+        <main class="">
             <section class="caja">
                 elemento 1
             </section>
